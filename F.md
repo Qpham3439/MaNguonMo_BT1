@@ -12,4 +12,29 @@ Số 1000 thứ hai là GID (Group ID): Định danh của nhóm người dùng.
 Dấu : ngăn cách giữa User và Group.
 nodered: Tên của thư mục hoặc tệp tin mà bạn muốn áp dụng thay đổi.
 
+Thêm healthcheck cho myapi trong file docker-compose.yml healthcheck: test: ["CMD", "curl", "-f", "http://localhost:9630"]
 
+```
+healthcheck:
+    test: ["CMD", "curl", "-f", "http://localhost:9630"]   #gọi API
+    interval: 30s   #30s check 1 lần
+    timeout: 10s   #tối đa 10s
+    retries: 3   #fail 3 lần ==> unhealth (không ổn)
+```
+
+giới hạn resource cho một service: (tránh việc 1 service chiếm quá nhiều ram)
+
+```
+deploy:
+  resources:
+    limits:
+      memory: 512M
+```
+
+Sau khi thêm healthcheck và deaploy:
+
+<img width="977" height="502" alt="image" src="https://github.com/user-attachments/assets/df98ef73-5819-47df-8be6-4949a2710506" />
+
+sử dụng lệnh: docker stats để quan sát lượng ram sử dụng bởi mỗi service (các thông số sẽ thay đổi theo thời gian)
+
+<img width="1763" height="302" alt="image" src="https://github.com/user-attachments/assets/73ec983b-0ba4-444d-a924-f73e55a133bc" />
