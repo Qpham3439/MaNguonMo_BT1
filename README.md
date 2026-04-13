@@ -5,7 +5,7 @@ Phần A: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/A.md
 
 Phần B: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/B.md
 
-Phần C:
+Phần C: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/C.md
 
 Phần D:
 
