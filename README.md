@@ -9,7 +9,7 @@ Phần C: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/C.md
 
 Phần D: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/D.md
 
-Phần E:
+Phần E: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/E.md
 
 Phần F: 
 
