@@ -1,2 +1,18 @@
 # MaNguonMo_BT1
 Bài tập 01 của sinh viên: K225480106057 - Phạm Mạnh Quỳnh - môn Phát triển ứng dụng với mã nguồn mở-TEE0421
+
+Phần A: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/A.md
+
+Phần B:
+
+Phần C:
+
+Phần D:
+
+Phần E:
+
+Phần F: 
+
+Phần G:
+
+Phần trả lời câu hỏi: 
