@@ -11,7 +11,7 @@ Phần D: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/D.md
 
 Phần E: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/E.md
 
-Phần F: 
+Phần F: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/F.md
 
 Phần G:
 
