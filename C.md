@@ -44,9 +44,10 @@ services:
 ```
 
 Edit file ./nginx/nginx.conf để: Cấu hình web server cổng 80 server_name là sub-domain (sub-domain tuỳ ý của em) location / trỏ tới root là thư mục /myweb location /api dùng proxy_pass trỏ tới 1 (hoặc nhiều) node http_in của nodered
-<img width="1527" height="539" alt="image" src="https://github.com/user-attachments/assets/aa4dabd7-35b2-4dd0-a159-c38aee0b32d2" />
+<img width="1129" height="674" alt="Screenshot 2026-04-13 151539" src="https://github.com/user-attachments/assets/e092d68d-69b0-4c50-9a6b-f6aa542e0909" />
 
 ```
+  GNU nano 7.2                                                                          nginx/nginx.conf
 events {}
 
 http {
@@ -60,7 +61,9 @@ http {
         }
 
         location /api {
-            proxy_pass http://myapi:9630/;
+            proxy_pass http://nodered:1880/;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
         }
     }
 }
