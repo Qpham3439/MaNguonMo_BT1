@@ -15,4 +15,4 @@ Phần F: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/F.md
 
 Phần G: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/G.md
 
-Phần trả lời câu hỏi: 
+Phần trả lời câu hỏi: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/G_Ans.md
