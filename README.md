@@ -13,6 +13,6 @@ Phần E: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/E.md
 
 Phần F: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/F.md
 
-Phần G:
+Phần G: https://github.com/Qpham3439/MaNguonMo_BT1/blob/main/G.md
 
 Phần trả lời câu hỏi: 
